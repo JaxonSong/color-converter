@@ -20,7 +20,7 @@
 
 ## Usage
 ```javascript
-  const { rgb2Hsb, hsb2Rgb, rgb2Hsl, hsl2Rgb } = require('./src/color_converter')
+  const { rgb2Hsb, hsb2Rgb, rgb2Hsl, hsl2Rgb } = require('@jaxon_song/color-converter')
 
   let hsb = rgb2Hsb(128, 45, 230)
   let rgbFromHsb = hsb2Rgb(hsb[0], hsb[1], hsb[2])
