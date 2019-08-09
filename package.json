@@ -1,6 +1,6 @@
 {
   "name": "@jaxon_song/color-converter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a javascript color convert tool, include RGB to HSB(HSL) and HSB(HSL) to RGB",
   "main": "index.js",
   "directories": {
