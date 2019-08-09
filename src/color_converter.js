@@ -1,3 +1,4 @@
+// HSB same as HSV (HSB == HSV)
 module.exports.rgb2Hsb = function (r, g, b) {
   r /= 255
   g /= 255
@@ -34,6 +35,7 @@ module.exports.rgb2Hsb = function (r, g, b) {
   return [h, s, v]
 }
 
+// HSB same as HSV (HSB == HSV)
 module.exports.hsb2Rgb = function (h, s, v) {
   s /= 100
   v /= 100
